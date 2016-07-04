@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+    <id>deadmanswitch</id>
+    <name>Dead Man Switch</name>
+    <description>Dead Man Switch for Documents</description>
+    <licence>AGPL</licence>
+    <author>DMS Developers</author>
+    <version>0.0.1</version>
+    <namespace>DeadManSwitch</namespace>
+    <category>other</category>
+    <dependencies>
+        <owncloud min-version="8.0" max-version="9.1" />
+    </dependencies>
+</info>

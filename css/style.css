@@ -1,0 +1,189 @@
+
+#app-content-wrapper {
+    height: 100%;
+    border: 1px;
+    margin: 3px;
+}
+
+#editor {
+    height: 100%;
+    width: 90%;
+        
+}
+
+#editor .input {
+    height: calc(50%);
+    width: 100%;
+}
+
+
+#editor .save {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+#editor textarea {
+ 
+    margin: 0;  
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 200px;
+    resize: none;
+    width: 100%;    
+
+
+   
+}
+
+#editor button {
+    height: 44px;
+    
+}
+
+
+#new-note {
+    background-color: #B5B5B5;
+}
+
+textareaX:disabled {
+    background-color: white;
+    border: 0;
+}
+
+
+#subject, #to, cc, bcc, subject, new-message-body,
+.reply-message-body {
+	width: 100%;
+}
+
+#target, #subject, #contentx {
+
+	width:100%;
+	padding-left: 80px;
+	margin: 0.1px;
+	border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#timespan{
+	width: 100px;
+	background: #d9d9d9;
+}
+
+#time  {
+	width: 300px;
+}
+
+#triggerx {
+	        
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+}
+
+
+/* border and radius style rules to be replaced by grouptop, groupbottom etc
+	once https://github.com/owncloud/core/pull/9847 is merged and backported */
+#to {
+	margin: 0;
+	padding-right: 60px; /* for cc-bcc-toggle */
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	padding-left: 30px;
+}
+#new-message-cc-bcc, reply-message-cc-bcc {
+	position: relative;
+}
+
+#subject-label {
+
+	position: absolute;
+	margin: 0.1;
+	padding: 6px;
+	
+}
+
+#time-labelx {
+
+	position: absolute;
+        margin: 0.1;
+        padding: 6px;
+
+
+}
+
+#trigger-labelx {
+
+	postion: absolute;
+	margin: 0.1;
+        padding: 6px;
+
+	
+
+}
+
+
+
+#to-label, cc-label, bcc-label {
+	position: absolute;
+	left: 0;
+	top: 0;	
+	padding: 6px;
+	cursor: text;
+	padding-top: 7px;	
+}
+#bcc-label {
+	top: initial;
+	bottom: 0;
+}
+#to, cc, bcc {
+	padding-left: 30px;
+}
+#new-message-cc-bcc-toggle, reply-message-cc-bcc-toggle {
+	position: absolute;
+	right: 0;
+	/*top: 0;*/
+	padding: 6px;
+}
+#new-message-cc-bcc {
+	display: none;
+}
+#subject, cc, bcc {
+	margin: 0;
+	
+	border-radius: 0;	
+}
+
+/* icons */
+.icon-inbox {
+	background-image: url('../img/inbox.svg');
+}
+.icon-flagged {
+	background-image: url('../img/star.svg');
+}
+.icon-drafts {
+	background-image: url('../img/drafts.svg');
+}
+.icon-sent {
+	background-image: url('../img/sent.svg');
+}
+.icon-junk {
+	background-image: url('../img/junk.svg');
+}
+.icon-trash {
+	background-image: url('../img/trash.svg');
+}
+
+/* ownCloud 7 compatibility */
+.hidden-visually {
+	position: absolute;
+	left:-10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+
