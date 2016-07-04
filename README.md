@@ -30,6 +30,9 @@ Note that sending large attachments via mail is not possible. Most providers blo
 
 ### PGP
 
-ID: 0EF68D0A
+ID: 
+0EF68D0A
+
+Fingerprint:
 4A35 55DD 448C 0310 8459  2504 20A5 4B65 0EF6 8D0A
 
