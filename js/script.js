@@ -288,7 +288,7 @@ View.prototype = {
         $('#new-note').click(function () {
             var note = {
                 title: translations.newNote,
-                content: 'This is a message from a "Dead Man Switch"! The sender of this message has intended you to receive the following message and it\'s contents in case of their unintentional absencse: '
+                content: 'This is a message from a "Dead Man Switch"! The sender of this message has intended you to receive the following message and it\'s contents in case of their unintentional absence: '
             };
 
             self._notes.create(note).done(function() {
