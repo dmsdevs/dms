@@ -22,7 +22,7 @@
 			<button id="reset_button" type="button" style="display:none;"><?php p($l->t('Reset')); ?></button> 
 			 
 			<textarea name="msg" id="msg" placeholder="<?php p($l->t('Message …')); ?>">{{ note.content }}</textarea>
-
+			<p>Warning: Please be aware that attachments larger then 20 MB will be blocked by most mail providers. Use password protected links to share large files instead.</p>
 			<div id="attachment" style="float:left;" > {{note.attachment}} </div>  {{#if note.attachment}} <div class="new-message-attachments-action svg icon-delete" style="float:left;"></div> {{/if}}		
 			
 			<input type="button" id="mail_new_attachment" style="clear: both; display: block; " value="<?php p($l->t('Add attachment from Files')); ?>">
