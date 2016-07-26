@@ -27,7 +27,7 @@ This app is in an early development stage, test your setup before relying on thi
 
 Please be aware that the date to trigger the messages is dependent on the time zone of the used server and therefore may vary a few hours from the time of the user.
 
-Note that sending large attachments via mail is not possible. Most providers block attachments larger then 25 MB, some even smaller ones. Keep your attachments short.
+Note that sending large attachments via mail is not possible. Most providers block attachments larger then 20 MB, some even smaller ones. Keep your attachments short.
 
 
 
