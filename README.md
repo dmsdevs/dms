@@ -5,12 +5,14 @@
 This app enables the user to specify messages and documents to be released to intended targets after a period of inactivity by the user.
 
 
+
 ## Requirements
 
 Owncloud >= 8.0
 mysql/mariadb database
 working mailsetup (sending mails)
 Set backgroundjobs to be triggered by cron for improved reliability
+
 
 
 ## Installation
@@ -26,6 +28,7 @@ This app is in an early development stage, test your setup before relying on thi
 Please be aware that the date to trigger the messages is dependent on the time zone of the used server and therefore may vary a few hours from the time of the user.
 
 Note that sending large attachments via mail is not possible. Most providers block attachments larger then 25 MB, some even smaller ones. Keep your attachments short.
+
 
 
 ### PGP
