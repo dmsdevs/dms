@@ -5,7 +5,7 @@
     <description>Dead Man Switch for Documents</description>
     <licence>AGPL</licence>
     <author>DMS Developers</author>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <namespace>DeadManSwitch</namespace>
     <category>other</category>
     <dependencies>
