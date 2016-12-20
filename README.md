@@ -1,6 +1,6 @@
 # Dead Man Switch
 
-**A document release app for [ownCloud](https://owncloud.org) (minimum version 8.0 & PHP 5.4).** 
+**A document release app for [ownCloud](https://owncloud.org) (minimum version 8.0 & PHP 5.4) or [NextCoud](https://nextcloud.com) (minimum version 10.0 & PHP 5.4).** 
 
 This app enables the user to specify messages and documents to be released to intended targets after a period of inactivity by the user.
 
@@ -8,7 +8,7 @@ This app enables the user to specify messages and documents to be released to in
 
 ## Requirements
 
-Owncloud >= 8.0
+Owncloud >= 8.0 or Nextcloud >= 10.0
 mysql/mariadb database
 working mailsetup (sending mails)
 Set backgroundjobs to be triggered by cron for improved reliability

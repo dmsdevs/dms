@@ -1,14 +1,31 @@
 <?xml version="1.0"?>
-<info>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
     <id>deadmanswitch</id>
     <name>Dead Man Switch</name>
-    <description>Dead Man Switch for Documents</description>
-    <licence>AGPL</licence>
-    <author>DMS Developers</author>
-    <version>0.0.2</version>
+    <summary>Dead Man Switch for Documents</summary>
+    <description><![CDATA[Dead Man Switch that releases specified documents after a set period of time]]></description>
+    <licence>agpl</licence>
+    <author mail="dms-devs@web.de" homepage="https://github.com/dmsdevs/dms">DMS Developers</author>
+    <version>0.0.3</version>
     <namespace>DeadManSwitch</namespace>
-    <category>other</category>
+    <category>files</category>
     <dependencies>
-        <owncloud min-version="8.0" max-version="9.2" />
+        <nextcloud min-version="10" max-version="11"/>
     </dependencies>
+
+    <!-- cron jobs -->
+    <cron>
+        <job>OCA\DeadManSwitch\Cron\Task</job>
+    </cron>
+
+    <!-- hooks -->
+    <hooks>
+        <hook>
+            <channel>OC_User::post_login</channel>
+            <subscriber>OCA\DeadManSwitch\Hooks\Reset::run</subscriber>
+        </hook>
+    </hooks>
+
+
 </info>
