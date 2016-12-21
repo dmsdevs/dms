@@ -41,4 +41,4 @@ $container->query('OCP\INavigationManager')->add(function () use ($container) {
 });
 
 // \OCP\Backgroundjob::addRegularTask('\OCA\DeadManSwitch\Cron\Task', 'run');
-// \OCP\Util::connectHook('OC_User', 'post_login', 'OCA\DeadManSwitch\Hooks\Reset', 'run');
+\OCP\Util::connectHook('OC_User', 'post_login', 'OCA\DeadManSwitch\Hooks\Reset', 'run');
