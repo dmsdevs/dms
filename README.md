@@ -6,6 +6,13 @@ This app enables the user to specify messages and documents to be released to in
 
 
 
+## Current Issues
+
+- backgroundjob not working, log: Error: Class 'OCP\Backgroundjob' not found, What changed in nextcloud background jobs?
+- the manual reset button adds the timespan to the target date instead of the current date, datepicker changed?
+
+
+
 ## Requirements
 
 Owncloud >= 8.0 or Nextcloud >= 10.0
