@@ -19,6 +19,11 @@
         <job>OCA\DeadManSwitch\Cron\Task</job>
     </cron>
 
+    <background-jobs>
+        <job>OCA\DeadManSwitch\Cron\Task</job>
+    </background-jobs>
+
+
     <!-- hooks -->
     <hooks>
         <hook>
