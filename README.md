@@ -9,7 +9,7 @@ This app enables the user to specify messages and documents to be released to in
 ## Current Issues
 
 - the manual reset button adds the timespan to the target date instead of the current date, datepicker changed?
-- backgroundjob not tested yet on nextcloud
+- backgroundjob not yet tested on nextcloud
 
 
 ## Requirements
